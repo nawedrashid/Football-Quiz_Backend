@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { ConnectionDB } = require('./DB/ConnectionDB');
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
 
 ConnectionDB()
 
